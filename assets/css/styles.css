@@ -1,0 +1,93 @@
+html {
+    font-family: 'Arvo', sans-serif;
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+.icons-social i {
+    font-size: 3em;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    padding: 0 30px;
+    text-align: center;
+}
+
+main>.intro {
+    font-family: 'Arvo', sans-serif;
+    font-size: 3.75em;
+    font-weight: 600;
+}
+
+main>.tagline {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+    font-weight: 100;
+}
+
+main>.footer {
+    font-size: .5rem;
+    margin: 1.5rem 0;
+    font-weight: 100;
+}
+
+.additional-links {
+    font-size: 1.5em;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.icons-social i {
+    padding: 10px;
+}
+
+.circular {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circular img {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
