@@ -4,11 +4,9 @@ main {
 }
 
 .icons-social a {
-    color: #FFDFB9;
     color: #5F4B8B;
 }
 
 .icons-social a svg path {
-    fill: #FFDFB9;
     fill: #5F4B8B;
 }
