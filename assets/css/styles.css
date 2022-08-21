@@ -1,5 +1,6 @@
 html {
     font-family: 'Arvo', sans-serif;
+    font-display: swap;
 }
 
 @media (min-width: 576px) {
