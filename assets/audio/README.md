@@ -8,3 +8,4 @@ The audio files shared within `assets/audio` are licensed under CC-BY-SA 4.0.
 | `de-boer.ogg` | Marcel Coenders | https://en.m.wiktionary.org/wiki/File:Nl-de_Boer.ogg |
 
 The files have been converted to `.acc` format in `claas.acc` and `de-boer.acc`.
+The files have been converted to `.mp3` format in `claas.mp3` and `de-boer.mp3`.
