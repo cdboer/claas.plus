@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="assets/css/themes/pink-purple.css">
 </head>
 
+
+
 <body>
     <main>
         <div class="circular">
@@ -37,8 +39,14 @@
             <a target="_blank" href="mailto:cdboer@cdboer.de"><i class="fa-solid fa-square-envelope"></i></a>
         </div>
         <div class="footer">
-            <p>The 'oe' in 'de Boer' is pronounced like the 'ou' in the french 'jour'. 🇫🇷</p>
-            <p></p>
+            <audio id="claas-de-boer-ipa" preload="auto" onended="document.getElementById('de-boer-ipa').play();">
+                <source src="https://upload.wikimedia.org/wikipedia/commons/d/d0/Nl-Klaas.ogg" type="audio/ogg">
+            </audio>
+            <audio id="de-boer-ipa" preload="auto">
+                <source src="https://upload.wikimedia.org/wikipedia/commons/e/ee/Nl-de_Boer.ogg" type="audio/ogg">
+            </audio>
+            <p>Pronounciation Hint</p>
+            🔊<em onclick="document.getElementById('claas-de-boer-ipa').play();"> /klaːs də ˈbuːr/ </em>🔊
         </div>
     </main>
 </body>
