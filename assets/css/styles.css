@@ -53,6 +53,12 @@ main>.tagline {
     font-weight: 100;
 }
 
+main>.mail {
+    font-size: 1rem;
+    margin: .5rem 0;
+    font-weight: 100;
+}
+
 main>.footer {
     font-size: .5rem;
     margin: 1.5rem 0;
@@ -70,8 +76,9 @@ main>.footer {
 }
 
 .circular {
-    width: 250px;
-    height: 250px;
+    width: 15%;
+    height: 15%;
+    min-width: 200px;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -82,9 +89,6 @@ main>.footer {
 .circular img {
     min-width: 100%;
     min-height: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
