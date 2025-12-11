@@ -1,10 +1,10 @@
 main {
-    background: #5F4B8B;
-    color: #E69A8D;
+    background: #ebf5df;
+    color: #7a9b61;
 }
 
 .icons-social a {
-    color: #E69A8D;
+    color: #7a9b61;
     transition: opacity 0.2s ease;
 }
 
@@ -13,5 +13,7 @@ main {
 }
 
 .icons-social a svg path {
-    fill: #E69A8D;
+    fill: #7a9b61;
 }
+
+

@@ -5,6 +5,11 @@ main {
 
 .icons-social a {
     color: #5F4B8B;
+    transition: opacity 0.2s ease;
+}
+
+.icons-social a:hover {
+    opacity: 0.7;
 }
 
 .icons-social a svg path {
